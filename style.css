@@ -1,0 +1,85 @@
+@media screen and (max-width:576px){
+
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+            font-family: Abhaya Libre, serif;
+            font-size: 33px;
+            font-weight: 100;
+            color: rgba(255, 255, 255, 1);
+            text-transform: none;
+            font-style: normal;
+            text-decoration: none;
+            line-height: 2em;
+            letter-spacing: 0px;
+        
+    }
+    
+    h2,h3,h4,h5,h6{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-family: Abhaya Libre, serif;
+    }
+
+    p{
+        text-align: center;
+        color: white;
+    
+            font-family: Akshar, sans-serif;
+            
+            font-weight: 200;
+            color: rgba(255, 255, 255, 1);
+            text-transform: none;
+            font-style: normal;
+            text-decoration: none,inherit;
+            line-height: 2em;
+            letter-spacing: 0px;
+        
+    }
+
+    table{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 10px;
+        color: white;
+    }
+
+    body{
+        background-color: #515055;
+    }
+
+    img{
+        width: 6rem;
+        height: 2.5rem;
+        object-fit: cover;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    #facebook{
+        text-decoration: none;
+        color: inherit;
+        background-color: #4267b2;
+        padding: 5px;
+        border-radius: 25px;
+    }
+
+    #download-link{
+        text-decoration: inherit;
+        color: white;
+    }
+
+}
+
+@media (min-width: 576px) {}
